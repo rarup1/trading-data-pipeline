@@ -1,8 +1,8 @@
-# Trading data pipeline - Rupert Arup / Berenberg
+# Trading data pipeline - Rupert Arup
 
 ## Description
 
-This simple python application is a data pipeline that reads data from a parquet file, applies some transformations and writes the result to a parquet file.
+This simple python application is a data pipeline that reads data from a parquet file, applies transformations to enrich the trade data and writes the result to a parquet file.
 It primarily uses pandas library as this offers in built support for some of the critical operations we need to perform such as joining market data with execution data using the asof method.
 
 
